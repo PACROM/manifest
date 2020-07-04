@@ -8,3 +8,12 @@
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="pacrom" revision="ten" />
   <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="pacrom" revision="ten" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pacrom" revision="10" />
+  
+   <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pacrom" revision="ten" />
+  <project path="frameworks/base" name="frameworks_base" remote="pacrom" revision="ten" />
+  <project path="frameworks/native" name="frameworks_native" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pacrom" revision="ten" />
