@@ -10,16 +10,9 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="ten" />
 
-  <remote name="pixel-devices-bitbucket"
-          fetch="https://bitbucket.org/PixelExperience-Devices"
-          revision="ten" />
-
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
           revision="ten" />
-
-  <remote name="bitbucket"
-          fetch="https://bitbucket.org" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
@@ -63,15 +56,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
-
-  <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
