@@ -5,6 +5,9 @@
           fetch="https://github.com/PixelExperience"
           revision="ten"
           review="gerrit.pixelexperience.org" />
+  
+  <remote name="pacrom"
+          fetch="https://github.com/PACROM" />
 
   <remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
@@ -56,7 +59,21 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
-
+  
+  <!-- Official Device Repos -->
+  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="pacrom" revision="ten" />
+  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="pacrom" revision="ten" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pacrom" revision="10" />
+  
+   <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pacrom" revision="ten" />
+  <project path="frameworks/base" name="frameworks_base" remote="pacrom" revision="ten" />
+  <project path="frameworks/native" name="frameworks_native" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pacrom" revision="ten" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pacrom" revision="ten" />
+  
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
