@@ -798,8 +798,5 @@
 
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
-  
-  <!-- Add all PACROM repos -->
-  <include name="snippets/pacrom.xml" />
 
 </manifest>
