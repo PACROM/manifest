@@ -103,6 +103,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
+  <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="pacrom" revision="lineage-17.1" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel" />
@@ -119,6 +120,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pacrom" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pacrom" />
+  <project path="packages/apps/GoogleCamera" name="packages_apps_GoogleCamera" remote="pacrom" revision="master" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="pacrom" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pacrom" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pacrom" />
