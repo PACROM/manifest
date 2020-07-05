@@ -60,12 +60,7 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
   
-  <!-- Official Device Repos -->
-  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="pacrom" revision="ten" />
-  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="pacrom" revision="ten" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pacrom" revision="10" />
-  
-   <!-- Framework repos -->
+  <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pacrom" revision="ten" />
   <project path="frameworks/base" name="frameworks_base" remote="pacrom" revision="ten" />
   <project path="frameworks/native" name="frameworks_native" remote="pacrom" revision="ten" />
@@ -96,9 +91,9 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pacrom" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pacrom" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="pixel" />
 
   <!-- Hardware repos -->
@@ -122,26 +117,26 @@
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
-  <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="pixel" />
-  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
-  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
-  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
-  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
-  <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="pixel" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
-  <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="pixel" />
-  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pacrom" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pacrom" />
+  <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="pacrom" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pacrom" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pacrom" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pacrom" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pacrom" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pacrom" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pacrom" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pacrom" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pacrom" />
+  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pacrom" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pacrom" />
+  <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="pacrom" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pacrom" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pacrom" />
+  <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="pacrom" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pacrom" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pacrom" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pacrom" />
 
   <!-- External repos -->
   <project path="external/cldr" name="external_cldr" remote="pixel" />
