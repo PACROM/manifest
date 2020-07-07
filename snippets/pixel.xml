@@ -94,7 +94,7 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="pacrom" revision="ten" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pacrom" revision="ten" />
-  <project path="vendor/google-customization" name="vendor_google-customization" remote="pixel" />
+  <project path="vendor/google-customization" name="vendor_google-customization" remote="pacrom" "revision="ten" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
@@ -175,5 +175,6 @@
   <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
+  <project path="system/qcom" name="android_system_qcom" remote="pacrom" revision="ten" />
 
 </manifest>
